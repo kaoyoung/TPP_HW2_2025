@@ -11,11 +11,13 @@ In this class we provide the information about the order mainly focus on the pri
 1. The distance of finishing the whole order.
 2. The price of the order. <br/>
 ~~Note that we may think distance as how hard to finish that order, that is not limited to the geograph distance(you may add the extra cost of the object that ze encounters in the whole path)~~.<br/>
-需實做出<br/>
-
-1. float BFS()
-2. float manhattan()<br/>
-兩距離函式<br/>
+需實做出兩距離函式<br/>
+```cpp
+float BFS()
+```
+```cpp
+float manhattan()
+```
 依照距離和order價格給出order的priority。 <br/>
 ```cpp
 vector<int> priority(); // return the order according to the prority
@@ -33,7 +35,7 @@ This class will provide two functions
 vector<pair<int, int>> FindObject(string object);     // return the object postion in the map
 ```
 給定object後回傳該object在的位置。
-object的輸入只能為objectNames陣列中的元素，plyer class提到的objectNames陣列以外的一律return make_pair(-1, -1)且輸出如下錯誤
+object的輸入只能為plyer class提到的objectNames陣列中的元素，objectNames陣列以外的一律return make_pair(-1, -1)且輸出如下錯誤
 ```cpp
 cerr << "we are finding the invalide object" << endl;
 ```
