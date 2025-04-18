@@ -15,12 +15,12 @@ In this class we provide the information about the order mainly focus on the pri
 1. float BFS()
 2. float manhattan()<br/>
 兩距離函式<br/>
-依照距離和order價格給出order的priority。
+依照距離和order價格給出order的priority。 <br/>
 ```cpp
 vector<int> priority(); // return the order according to the prority
 ```
 這函數依據priority回傳order，由大到小排序。<br/>
-例子 : 1號訂單priority 15；2號訂單priority 25; 3號訂單priority 20。 回傳(2,3,1)
+例子 : 1號訂單priority 15；2號訂單priority 25; 3號訂單priority 20。 回傳(2,3,1) <br/>
 
 ### Map class 
 In this class we provide the information about the map mainly focus on finding the positoin of the certain object. 
