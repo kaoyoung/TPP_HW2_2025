@@ -68,7 +68,7 @@ constexpr int objectCount = 14;
 constexpr char* objectNames[objectCount] = {"TART", "CROISSANT", "CHOPPED_STRAWBERRIES", "ICE_CREAM", "BLUEBERRIES", 
                                             "DOUGH", "CHOPPED_DOUGH", "RAW_TART", "STRAWBERRIES",
                                             "DISHWASHER", "WINDOW", "CHOPPING_BOARD", "OVEN",
-                                            EMPTY}; // how about using enum； EMPTY is empty table
+                                            "EMPTY"}; // how about using enum； EMPTY is empty table
 ```
 
 This class provides five functions 
