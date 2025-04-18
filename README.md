@@ -12,6 +12,7 @@ In this class we provide the information about the order mainly focus on the pri
 2. The price of the order. <br/>
 ~~Note that we may think distance as how hard to finish that order, that is not limited to the geograph distance(you may add the extra cost of the object that ze encounters in the whole path)~~.<br/>
 需實做出<br/>
+
 1. float BFS()
 2. float manhattan()<br/>
 兩距離函式<br/>
@@ -32,7 +33,7 @@ This class will provide two functions
 vector<pair<int, int>> FindObject(string object);     // return the object postion in the map
 ```
 給定object後回傳該object在的位置。
-object的輸入只能為objectNames陣列中的元素，objectNames陣列以外的一律return make_pair(-1, -1)且輸出如下錯誤
+object的輸入只能為objectNames陣列中的元素，plyer class提到的objectNames陣列以外的一律return make_pair(-1, -1)且輸出如下錯誤
 ```cpp
 cerr << "we are finding the invalide object" << endl;
 ```
