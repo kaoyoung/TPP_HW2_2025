@@ -9,17 +9,17 @@ We think we may category the action of a player into three main parts.
 ### Order class
 In this class we provide the information about the order mainly focus on the priority about the orders. We think that the priority of the order is effected by three parts 
 1. The distance of finishing the whole order.
-2. The price of the order.
-~~Note that we may think distance as how hard to finish that order, that is not limited to the geograph distance(you may add the extra cost of the object that ze encounters in the whole path)~~.
-需實做出
+2. The price of the order. <br/>
+~~Note that we may think distance as how hard to finish that order, that is not limited to the geograph distance(you may add the extra cost of the object that ze encounters in the whole path)~~.<br/>
+需實做出<br/>
 1. float BFS()
-2. float manhattan()
-兩距離函式
+2. float manhattan()<br/>
+兩距離函式<br/>
 依照距離和order價格給出order的priority。
 ```cpp
 vector<int> priority(); // return the order according to the prority
 ```
-這函數依據priority回傳order，由大到小排序。
+這函數依據priority回傳order，由大到小排序。<br/>
 例子 : 1號訂單priority 15；2號訂單priority 25; 3號訂單priority 20。 回傳(2,3,1)
 
 ### Map class 
